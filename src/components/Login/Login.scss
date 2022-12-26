@@ -1,0 +1,134 @@
+.login-container {
+    text-align: center;
+    background-color: #F2F2F6;
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .login-header {
+        img {
+            width: 300px;
+            margin-bottom: 20px;
+        }
+    }
+
+    .content-form {
+        margin: 0 0 24px;
+        padding: 32px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        background-color: #fff;
+
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #19488D;
+        }
+
+        span {
+            color: #8297B6;
+        }
+
+        .forgot-password {
+            color: #3DA495;
+            text-align: right;
+        }
+
+        .btn-login {
+            width: 100%;
+            padding: 10px 0;
+            background-color: #1976D2;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            text-align: center;
+
+            &:hover {
+                background-color: #0e3f70;
+                border-radius: 5px;
+            }
+        }
+
+    }
+
+    .btn-signup {
+        button {
+            width: 100%;
+            padding: 10px 0;
+            background-color: #fff;
+            color: #1976D2;
+            border: none;
+            border: 1px solid #1976D2;
+            border-radius: 5px;
+
+            &:hover {
+                background-color: #f1f1f1;
+                border-radius: 5px;
+            }
+        }
+    }
+
+}
+
+.login-footer {
+    div {
+        img {
+            width: 200px;
+        }
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+
+@media (max-width: 739px) {
+    .login-container {
+        padding: 80px 10px 0;
+        height: 100vh;
+
+        .login-header {
+            img {
+                width: 200px;
+                margin-bottom: 20px;
+            }
+        }
+
+        .content-form {
+            width: 100%;
+        }
+
+        .login-footer {
+            div {
+                img {
+                    width: 150px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .login-container {
+        padding: 80px 10px 0;
+
+        .content-form {
+            width: 400px;
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .login-container {
+        .content-form {
+            width: 450px;
+        }
+    }
+
+}

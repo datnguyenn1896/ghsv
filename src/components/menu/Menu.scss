@@ -1,0 +1,202 @@
+.menu-container {
+    display: flex;
+    padding: 40px 40px 0;
+    font-family: -apple-system, sans-serif;
+
+    .left-bar {
+        width: 300px;
+
+        .MuiAvatar-root {
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        }
+
+        .MuiList-root {
+            padding-left: 0 !important;
+
+            .Mui-selected {
+                color: #146BB9;
+                background-color: #F5FAFA;
+                border-radius: 5px;
+
+                .MuiListItemIcon-root {
+                    svg {
+                        color: #fff;
+                        background-color: #146BB9;
+
+                    }
+
+                }
+
+                &:hover {
+                    background-color: #F5FAFA;
+                }
+            }
+
+        }
+
+        .MuiListItemButton-root {
+            .MuiListItemIcon-root {
+                svg {
+                    width: 30px;
+                    height: 30px;
+                    padding: 5px;
+                    border-radius: 5px;
+                }
+
+            }
+        }
+    }
+
+    .top-bar {
+        margin-left: 60px;
+        display: flex;
+        height: 120px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgb(226, 226, 226);
+        width: 100%;
+
+        .create-order {
+            width: 260px;
+
+
+            .top {
+                display: flex;
+                align-items: center;
+                padding-left: 5px;
+
+                div {
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+
+            }
+
+            .mid {
+
+
+                .MuiButton-root {
+                    color: black;
+                    font-size: 12px;
+                    text-transform: none;
+                    font-weight: 300;
+
+                    svg {
+                        color: #22BAA6;
+                    }
+                }
+
+            }
+
+            .bottom {
+
+                .MuiButton-root {
+                    color: black;
+                    font-size: 12px;
+                    text-transform: none;
+                    font-weight: 400;
+
+                    svg {
+                        color: #146BB9;
+                    }
+                }
+            }
+        }
+
+        .fasst-analyze {
+            width: 100%;
+            // margin-left: 110px;
+            display: flex;
+            justify-content: space-around;
+
+            .total {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                gap: 20px;
+
+                .icon {
+                    min-width: 45px;
+                    height: 45px;
+                    background-color: #4FA8E9;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 10px;
+                    color: #fff;
+                }
+
+                .text {
+                    div:last-child {
+                        font-size: 20px;
+                        font-weight: bold;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                    }
+
+                }
+            }
+
+            .process {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                gap: 20px;
+
+                .icon {
+                    min-width: 45px;
+                    height: 45px;
+                    background-color: #22BAA6;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 10px;
+                    color: #fff;
+                }
+
+                .text {
+                    div:last-child {
+                        font-size: 20px;
+                        font-weight: bold;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                    }
+
+                }
+            }
+
+            .doi-doi-soat {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                gap: 20px;
+
+                .icon {
+                    min-width: 45px;
+                    height: 45px;
+                    background-color: #FFC144;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 10px;
+                    color: #fff;
+                }
+
+                .text {
+                    div:last-child {
+                        font-size: 20px;
+                        font-weight: bold;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                    }
+
+                }
+            }
+        }
+    }
+}
